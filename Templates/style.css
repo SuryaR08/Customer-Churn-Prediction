@@ -1,0 +1,51 @@
+/* styles.css */
+
+body {
+   background-image: url('background.jpg'); /* Background image path */
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   color: #333; /* Text color */
+   font-family: 'Arial', sans-serif; /* Change font family if needed */
+}
+
+.container {
+   margin-top: 50px;
+}
+
+.header {
+   background-color: #007bff; /* Header background color */
+   padding: 10px;
+   text-align: center;
+   color: #ffffff; /* Header text color */
+   margin-bottom: 20px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Header box shadow */
+   border-radius: 8px; /* Rounded corners */
+}
+
+form {
+   background-color: #fff; /* Form background color */
+   padding: 20px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Form box shadow */
+   border-radius: 8px; /* Rounded corners */
+}
+
+button {
+   background-color: #28a745; /* Button background color */
+   color: #fff; /* Button text color */
+   border: none;
+   padding: 10px 20px;
+   cursor: pointer;
+   border-radius: 4px; /* Rounded corners */
+   transition: background-color 0.3s ease;
+}
+
+button:hover {
+   background-color: #218838; /* Darker color on hover */
+}
+
+textarea {
+   margin-bottom: 10px;
+}
+
+/* Add more styles as needed */
